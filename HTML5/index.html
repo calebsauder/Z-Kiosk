@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RoomReady Info v1.0.1 (BETA)</title>
+<script type="text/javascript" language="javascript" src="js/jquery.2.2.4.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/player.js"></script>
+<link rel="stylesheet" type="text/css" href="css/player.css" />
+</head>
+<body>
+<video id="video" autoplay muted loop>
+	<!--source src="videos/circles.mp4" type="video/mp4"-->
+	<source src="videos/circles.webm" type="video/webm">
+</video>
+<div class="vp">
+	<header>
+		<div class="time">2:54 PM</div>
+		<div class="roomname">redbird@roomready.com</div>
+	</header>
+	<div class="panels">
+		<section class="panel">
+			<style type="text/css">
+			<!--
+			.reserve-splash {
+				position:absolute;
+				top:40%;
+				left:40%;
+				width:460px;
+				height:160px;
+				margin-left:-150px;
+				margin-top:-80px;
+			}
+			.reserve-splash img.iphone {
+				float:right;
+				height:260px;
+				width:auto;
+				margin-top:-35px;
+			}
+			.get-app {
+				position: absolute;
+				bottom: 20px;
+				left: 20px;
+				font-size: 25px;
+			}
+			.get-app img.qr {
+				height:125px;
+				width:auto;
+				float:left;
+				margin-right:20px;
+			}
+			.reserve-txt {
+				font-size:40px;
+			}
+			-->
+			</style>
+			<div class="reserve-splash">
+				<img src="img/iphone.png" class="iphone">
+				<div class="reserve-txt">
+					Reserve this room<br>
+					by downloading<br>
+					the app below.
+				</div>
+			</div>
+			<div class="get-app">
+				<h2 class="clr-1">Want the app?</h2>
+				<img class="qr" src="img/qr.png">
+				The RoomReady Connect app controls<br>and books the room.<br>
+				&laquo; Get it here.
+			</div>
+		</section>
+	</div>
+	<div class="right-block">
+		<div class="right-block-content">
+			<h2 class="clr-2">Upcoming Meetings</h2>
+		</div>
+	</div>
+	<img src="img/logo.png" class="logo">
+</div>
+
+</body>
+</html>
